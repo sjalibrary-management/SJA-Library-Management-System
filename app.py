@@ -54,7 +54,10 @@ def check_password():
             st.markdown(
                 """
                 <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+                    
                     .stForm {
                         
                         color: rgb(0, 0, 0);
