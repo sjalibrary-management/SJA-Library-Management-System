@@ -300,7 +300,7 @@ if check_password():
 
 
     def dashboard():
-        st.sidebar.image("images/logo.png", use_column_width=True)           
+        st.sidebar.image("images/logo.png")           
         with st.sidebar:
             selected = option_menu(
                 menu_title = 'Dashboard',
