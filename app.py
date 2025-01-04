@@ -54,9 +54,7 @@ def check_password():
             st.markdown(
                 """
                 <style>
-                    <link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
                     
                     .stForm {
                         
@@ -71,7 +69,7 @@ def check_password():
 
                     }
                     .login-title {
-                        font-family: 'Poppins', sans-serif;
+                        font-family: 'Ubuntu', sans-serif;
                         font-size: 28px;
                         color: black;
                         text-align: center;
@@ -328,18 +326,18 @@ if check_password():
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin-top: 300px;
+                        margin-top: 400px;
                     }
 
                     .home-container h1 {
                         font-family: 'Ubuntu', sans-serif;
-                        font-size: 70px;
+                        font-size: 80px;
                         color: #FFFFFF;
                         margin-bottom: 5px; 
                     }
 
                     .home-container h2 {
-                        font-size: 50px; 
+                        font-size: 60px; 
                         color: #162938;
                         margin-bottom: 0%; 
                         margin-right: 150px;
@@ -368,12 +366,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
-                        <link rel="preconnect" href="https://fonts.googleapis.com">
-                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
                         
                         .inventory-form-title {
-                            font-family: 'Poppins', sans-serif;
+                            font-family: 'Ubuntu', sans-serif;
                             font-size: 28px;
                             color: #2a2a2a;
                             text-align: center;
@@ -485,12 +481,10 @@ if check_password():
                                         st.markdown(
                                             """
                                             <style>
-                                                <link rel="preconnect" href="https://fonts.googleapis.com">
-                                                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                                                @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                                                @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
                     
                                                 .edit-form-title {
-                                                    font-family: 'Poppins', sans-serif;
+                                                    font-family: 'Ubuntu', sans-serif;
                                                     font-size: 28px;
                                                     color: #2a2a2a;
                                                     text-align: center;
@@ -686,12 +680,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
-                        <link rel="preconnect" href="https://fonts.googleapis.com">
-                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
                         
                         .check-out-form-title {
-                            font-family: 'Poppins', sans-serif;
+                            font-family: 'Ubuntu', sans-serif;
                             font-size: 28px;
                             color: #2a2a2a;
                             text-align: center;
@@ -794,12 +786,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
-                        <link rel="preconnect" href="https://fonts.googleapis.com">
-                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
                         
                         .check-in-form-title {
-                            font-family: 'Poppins', sans-serif;
+                            font-family: 'Ubuntu', sans-serif;
                             font-size: 28px;
                             color: #2a2a2a;
                             text-align: center;
@@ -1241,12 +1231,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
-                        <link rel="preconnect" href="https://fonts.googleapis.com">
-                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
                     
                         .other-title {
-                            font-family: 'Poppins', sans-serif;
+                            font-family: 'Ubuntu', sans-serif;
                             font-size: 28px;
                             color: #2a2a2a;
                             text-align: center;
