@@ -4,5 +4,4 @@ plotly
 openpyxl
 streamlit-option-menu
 pathlib
-base64
 hashlib
