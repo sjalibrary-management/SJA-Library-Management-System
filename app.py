@@ -56,7 +56,7 @@ def check_password():
                 <style>
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
                     
                     .stForm {
                         
@@ -368,7 +368,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                        
                         .inventory-form-title {
                             font-family: 'Poppins', sans-serif;
                             font-size: 28px;
@@ -482,7 +485,10 @@ if check_password():
                                         st.markdown(
                                             """
                                             <style>
+                                                <link rel="preconnect" href="https://fonts.googleapis.com">
+                                                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                                                 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                    
                                                 .edit-form-title {
                                                     font-family: 'Poppins', sans-serif;
                                                     font-size: 28px;
@@ -680,7 +686,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                        
                         .check-out-form-title {
                             font-family: 'Poppins', sans-serif;
                             font-size: 28px;
@@ -785,7 +794,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                        
                         .check-in-form-title {
                             font-family: 'Poppins', sans-serif;
                             font-size: 28px;
@@ -1229,7 +1241,10 @@ if check_password():
                 st.markdown(
                     """
                     <style>
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+                    
                         .other-title {
                             font-family: 'Poppins', sans-serif;
                             font-size: 28px;
