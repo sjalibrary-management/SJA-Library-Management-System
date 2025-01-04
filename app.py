@@ -325,18 +325,18 @@ if check_password():
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin-top: 450px;
+                        margin-top: 300px;
                     }
 
                     .home-container h1 {
                         font-family: 'Ubuntu', sans-serif;
-                        font-size: 90px;
+                        font-size: 70px;
                         color: #FFFFFF;
                         margin-bottom: 5px; 
                     }
 
                     .home-container h2 {
-                        font-size: 80px; 
+                        font-size: 50px; 
                         color: #162938;
                         margin-bottom: 0%; 
                         margin-right: 150px;
