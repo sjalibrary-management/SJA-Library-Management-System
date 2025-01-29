@@ -344,7 +344,7 @@ if check_password():
                         text-align: center;
                         width: 100%;
                         left: 160px;
-                        bottom: 250px;
+                        bottom: 230px;
                         font-size: 40px; 
                         color: #162938;
                         margin-bottom: 0px; 
@@ -355,7 +355,7 @@ if check_password():
                         text-align: center;
                         width: 100%;
                         left: 160px;
-                        bottom: 200px;
+                        bottom: 180px;
                         font-size: 24px; 
                         margin-bottom: 20px; 
                     }
