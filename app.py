@@ -341,6 +341,10 @@ if check_password():
                     }
                     .home-container h2 {
                         position: fixed;
+                        text-align: center;
+                        width: 100%;
+                        left: 160px;
+                        bottom: 10px;
                         font-size: 40px; 
                         color: #162938;
                         margin-bottom: 0px; 
@@ -348,6 +352,10 @@ if check_password():
 
                     .home-container h3 {
                         position: fixed;
+                        text-align: center;
+                        width: 100%;
+                        left: 160px;
+                        bottom: 10px;
                         font-size: 24px; 
                         margin-bottom: 20px; 
                     }
