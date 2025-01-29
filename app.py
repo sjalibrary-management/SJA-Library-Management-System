@@ -355,7 +355,7 @@ if check_password():
                 <div class="home-container">
                     <h2>WELCOME TO</h2>
                     <h1>BiblioGo</h1>
-                    <h3>Library Management System</h3>
+                    <h3></h3>
                 </div>
                 """, 
                 unsafe_allow_html=True
