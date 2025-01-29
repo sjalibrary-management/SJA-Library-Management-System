@@ -334,7 +334,7 @@ if check_password():
                         position: fixed; 
                         text-align: center;
                         width: 100%;
-                        left: 160px;
+                        left: 50px;
                         bottom: 10px;
                         font-size: 170px;
                         color: #FFFFFF;
@@ -343,7 +343,7 @@ if check_password():
                         position: fixed;
                         text-align: center;
                         width: 100%;
-                        left: 160px;
+                        left: 50px;
                         bottom: 230px;
                         font-size: 40px; 
                         color: #162938;
@@ -354,7 +354,7 @@ if check_password():
                         position: fixed;
                         text-align: center;
                         width: 100%;
-                        left: 160px;
+                        left: 50px;
                         bottom: 180px;
                         font-size: 24px; 
                         margin-bottom: 20px; 
