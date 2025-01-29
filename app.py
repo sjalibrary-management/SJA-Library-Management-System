@@ -112,7 +112,7 @@ def check_password():
            
     st.markdown(
         "<p style='text-align: center; color: rgba(255,255,255,0.5); position: fixed; bottom: 20px; width: 100%; left: 0;'>"
-        "© 2024 Library Management System. All rights reserved.</p>",
+        "© 2025 Library Management System. All rights reserved.</p>",
         unsafe_allow_html=True
     )
     return False
@@ -329,22 +329,21 @@ if check_password():
                         min-height: 70vh; 
                         margin: 0; 
                     }
-
                     .home-container h1 {
                         position: fixed; 
                         text-align: center;
                         width: 100%;
                         left: 50px;
                         bottom: 10px;
-                        font-size: 170px;
+                        font-size: 250px;
                         color: #FFFFFF;
                     }
                     .home-container h2 {
                         position: fixed;
                         text-align: center;
                         width: 100%;
-                        left: 50px;
-                        bottom: 230px;
+                        left: 30px;
+                        bottom: 300px;
                         font-size: 40px; 
                         color: #162938;
                         margin-bottom: 0px; 
@@ -354,8 +353,8 @@ if check_password():
                         position: fixed;
                         text-align: center;
                         width: 100%;
-                        left: 50px;
-                        bottom: 180px;
+                        left: 30px;
+                        bottom: 250px;
                         font-size: 24px; 
                         margin-bottom: 20px; 
                     }
