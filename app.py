@@ -340,14 +340,16 @@ if check_password():
                         color: #FFFFFF;
                     }
                     .home-container h2 {
+                        position: fixed;
                         font-size: 40px; 
                         color: #162938;
                         margin-bottom: 0px; 
                     }
 
                     .home-container h3 {
+                        position: fixed;
                         font-size: 24px; 
-                        margin-bottom: 20px; /* Simplified from margin-top: 0 */
+                        margin-bottom: 20px; 
                     }
 
                 </style>
@@ -355,7 +357,7 @@ if check_password():
                 <div class="home-container">
                     <h2>WELCOME TO</h2>
                     <h1>BiblioGo</h1>
-                    <h3></h3>
+                    <h3>Library Management System</h3>
                 </div>
                 """, 
                 unsafe_allow_html=True
