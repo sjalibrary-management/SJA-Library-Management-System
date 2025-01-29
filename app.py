@@ -318,42 +318,44 @@ if check_password():
                 """
                 <style>
                     @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-                    
+                                        
                     .home-container {
                         width: 100%;
                         background: transparent;
                         display: flex;
                         flex-direction: column;
-                        justify-content: center;
+                        justify-content: flex-end; 
                         align-items: center;
-                        margin-top: 400px;
+                        min-height: 70vh; 
+                        margin: 0; 
                     }
 
                     .home-container h1 {
-                        font-family: 'Ubuntu', sans-serif;
-                        font-size: 80px;
+                        position: fixed; 
+                        text-align: center;
+                        width: 100%;
+                        left: 160px;
+                        bottom: 10px;
+                        font-size: 170px;
                         color: #FFFFFF;
-                        margin-bottom: 5px; 
+                    }
+                    .home-container h2 {
+                        font-size: 40px; 
+                        color: #162938;
+                        margin-bottom: 0px; 
                     }
 
-                    .home-container h2 {
-                        font-size: 60px; 
-                        color: #162938;
-                        margin-bottom: 0%; 
-                        margin-right: 150px;
-                    }
                     .home-container h3 {
                         font-size: 24px; 
-                        margin-top: 0;
-                        margin-right: 120px; 
+                        margin-bottom: 20px; /* Simplified from margin-top: 0 */
                     }
 
                 </style>
 
                 <div class="home-container">
                     <h2>WELCOME TO</h2>
-                    <h1>SJA LIBRARY MANAGEMENT SYSTEM</h1>
-                    <h3>Your gateway to efficient library management</h3>
+                    <h1>BiblioGo</h1>
+                    <h3>Library Management System</h3>
                 </div>
                 """, 
                 unsafe_allow_html=True
